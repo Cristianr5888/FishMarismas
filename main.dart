@@ -975,7 +975,7 @@ class _BottomNavigationBarExampleState
   Widget build(BuildContext context) {   
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 101, 19, 163),
+        backgroundColor: Color.fromARGB(255, 40, 70, 160),
         //backgroundColor: Color.fromARGB(255, 54, 90, 197), // Cambiar el color de fondo de la AppBar
         title: Text(
           'Fish Marismas',
@@ -1007,22 +1007,22 @@ class _BottomNavigationBarExampleState
             icon: Icon(Icons.home),
             label: 'Inicio',
             //backgroundColor: Color.fromARGB(255, 54, 90, 197),
-            backgroundColor: Color.fromARGB(255, 101, 19, 163), //color del navbar
+            backgroundColor: Color.fromARGB(255, 40, 70, 160), //color del navbar
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.info),
             label: 'FIP',
-            backgroundColor: Color.fromARGB(255, 110, 27, 174),
+            backgroundColor: Color.fromARGB(255, 40, 70, 160),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.waves),
             label: 'Marismas',
-            backgroundColor: Color.fromARGB(255, 110, 27, 174),
+            backgroundColor: Color.fromARGB(255, 40, 70, 160),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.photo),
             label: 'Anexo Fotográfico',
-            backgroundColor: Color.fromARGB(255, 110, 27, 174),
+            backgroundColor: Color.fromARGB(255, 40, 70, 160),
           ),
         ],
         currentIndex: _selectedIndex,
@@ -1595,7 +1595,7 @@ class LogosImg extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return Image.asset('assets/images/logossf.png', width: double.infinity,);//anexo logos    
+    return Image.asset('assets/images/barradelogoss.png', width: double.infinity,);//anexo logos    
   }
 }
 class anexosiete extends StatelessWidget {
@@ -1769,3 +1769,5 @@ class Item {
     /* ----------------------------------- */
     /* ----BY CRISTIAN JIMENEZ ROBLES----- */
     /* ----------------------------------- */
+
+    
