@@ -1,12 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-/* import 'dart:io'; */
-/* import 'package:path_provider/path_provider.dart'; */
-/* import 'package:permission_handler/permission_handler.dart'; */
-/* import 'package:gallery_saver/gallery_saver.dart'; */
-
-
     /* ----------------------------------- */
     /* ----BY CRISTIAN JIMENEZ ROBLES----- */
     /* ----------------------------------- */
@@ -44,8 +38,10 @@ class BottomNavigationBarExample extends StatefulWidget {
 class _BottomNavigationBarExampleState
     extends State<BottomNavigationBarExample> {
   int _selectedIndex = 0;
+    
   
-  static const List<Widget> _widgetOptions = <Widget>[    
+  static const List<Widget> _widgetOptions = <Widget>[   
+  
     /* ----------------------------------- */
     /* -------- LISTADO DE PECES --------- */
     /* ----------------------------------- */    
@@ -541,7 +537,7 @@ class _BottomNavigationBarExampleState
           '\nSe alimenta de camarones, cangrejos, calamares, pulpos y peces óseos.'
 					'\n \nSu distribución es desde Baja California Central al norte de Perú.'
           '\n \nTalla máxima encontrada: 60 cm.',
-          imagePath: 'assets/images/pargocolmillon.jpeg',
+          imagePath: 'assets/images/pcolmillon.jpeg',
          
         ),
 
@@ -676,13 +672,13 @@ class _BottomNavigationBarExampleState
   '\nSu dieta consiste en camarones, cangrejos y peces óseos.'
   '\n \nSu distribución es desde California a Perú.'
   '\n \nTalla máxima encontrada: 44 cm.',
-  imagePath: 'assets/images/guavina1.jpeg',     
+  imagePath: 'assets/images/avomo.jpeg',     
 ),
     // Guavina [42]
     ItemData(
          
-      header: 'Guavina/Guabina',
-  content: 'Nombre común: Guavina/Guabina',
+      header: 'Guabina/Guavina',
+  content: 'Nombre común: Guabina/Guavina',
   cientific: 'Nombre científico: Gobiomorus maculatus',
   
        
@@ -690,16 +686,28 @@ class _BottomNavigationBarExampleState
   '\nSu dieta consiste en camarones, cangrejos, zooplancton y peces óseos.'
   '\n \nSu distribución es desde Baja y Golfo de California al norte de Perú.'
   '\n \nTalla máxima encontrada: 27 cm.',
-  imagePath: 'assets/images/dormilon1.jpeg',     
+  imagePath: 'assets/images/guabina.jpeg',     
+  ),
+      ItemData(
+         
+      header: 'Guabina Cristalina',
+  content: 'Nombre común: Guabina Cristalina',
+  cientific: 'Nombre científico: Gobiomorus polylepis',
+  
+       
+  aditionalinfo:'\nHábitat: suele vivir en fondos rocosos en arroyos con corriente; también en lagunas salobres.'
+  '\nSu dieta consiste en camarones, cangrejos, zooplancton e insectos.'
+  '\n \nSu distribución es desde Baja y Boca de California a Ecuador.'
+  '\n \nTalla máxima encontrada: 28 cm.',
+  imagePath: 'assets/images/guabina_c.png',     
 ),
+  
     // puyeque [43]
     ItemData(
          
       header: 'Puyeque',
   content: 'Nombre común: Puyeque',
-  cientific: 'Nombre científico: Dormitator latifrons',
-  
-       
+  cientific: 'Nombre científico: Dormitator latifrons',      
   aditionalinfo:'\nHábitat: normalmente se encuentra en aguas dulces y salobres.'
   '\nSu dieta consiste mayormente en microalgas e insectos.'
   '\n \nSu distribución es desde el sur de California, hasta el norte de Perú.'
@@ -723,17 +731,17 @@ class _BottomNavigationBarExampleState
     content: 'Nombre común: Gualicoche',
     cientific: 'Nombre científico: Ctenogobius sagittula',      
     aditionalinfo:'\nHábitat: suele vivir en fondos de arena y lodo en bahías y esteros de poca profundidad.'
-  '\nSu dieta consiste en microalgas bentónicas.'
+  '\nSu dieta consiste en microalgas.'
   '\n \nSu distribución es desde el Golfo de California al norte de Perú.'
   '\n \nTalla máxima encontrada: 20 cm.',
     imagePath: 'assets/images/gualicoche.jpeg',     
     ),
-
+  
 
       ], // aqui termina el corchete de Mylist     
     ),   
     /* ----------------------------------- */
-    /* ----------PESTAÑA FIP-------------- */
+    /* --------ANCLA PESTAÑA FIP----------- */
     /* ----------------------------------- */   
     FractionallySizedBox(
       widthFactor: 0.9, // Factor de fracción para el ancho (0.8 = 80%)
@@ -748,6 +756,7 @@ class _BottomNavigationBarExampleState
             Text(
               '\nProyecto de Mejora Pesquera (FIP) Escama',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ),
             Text(
               '\n¿Qué es un Proyecto de Mejora Pesquera?',
@@ -782,14 +791,10 @@ class _BottomNavigationBarExampleState
             Text('\nListado de Cooperativas que participan en el\n FIP escama en Marismas Nacionales Nayarit y Sinaloa.',
             textAlign: TextAlign.center,),
             Imgtable(),
-            Imgtable2(),
-
-
+            
             Text(
-              /*  
-              '\n\nProgramado por Cristian Jiménez Robles'
-              '\nCon la ayuda de los estudiantes de la UPEN: Jasiel Martinez, Carlos Ramirez, Zaira Morquecho.'
-              */'\n\nDirectorio'
+                        
+              '\n\nDirectorio'
               '\n\nDr. Gustavo D. Dannemann; Director Ejecutivo de Pronatura Noroeste AC (PNO)'
               '\nDr. Juan Carlos Bautista Covarrubia; Director Escuela Nacional de Ingeniería Pesquera (ENIP)'
               '\nIng. José Maria Robles Naya; Rector de la Universidad Politécnica del Estado de Nayarit (UPEN)'
@@ -801,37 +806,40 @@ class _BottomNavigationBarExampleState
               '\n\n'
               'D R Robertson, Gerald R Allen, E. Peña, C. & A. Estape. 2024. Peces Costeros del Pacífico Oriental Tropical: sistema de Información en línea. Versión 3.0 Instituto Smithsonian de Investigaciones Tropicales, Balboa, República de Panamá.\n'
 
-              '\n\nProgramado por Cristian Jiménez Robles'
+              '\n\nProgramado por Cristian Jiménez Robles © 2024'
               '\nCon la ayuda de los estudiantes de la UPEN: Jasiel Martinez, Carlos Ramirez y Zaira Morquecho.',
               
 
               style: TextStyle
-              (fontSize: 10, 
+              (fontSize: 9, 
               fontWeight: FontWeight.w500,
-              color: Color.fromARGB(255, 103, 103, 103),
+              color: Color.fromARGB(255, 93, 93, 93),
               
             ),
             ),
             
             Text(
-              '\n\nEsta aplicación fue elaborada por el Ing. Cristian Jiménez Robles (UPEN) en colaboración con el Biólogo Carlos Torrescano Castro (PNO).\n'
+              '\n\nEsta aplicación fue elaborada por el Ing. Cristian Jiménez Robles (UPEN) en colaboración con:\n' 
+              'BM Mauricio Cortés Hernández (PNO)\n'       
+              'Biól. Carlos Torrescano Castro (PNO)\n'
+              'Ing. César Rodríguez Quintanilla (PNO)\n'
               'Asesor académico: Dr. Juan Ramón Flores Ortega (ENIP).\n',
               
               style: TextStyle
-              (fontSize: 10, 
+              (fontSize: 9, 
               fontWeight: FontWeight.w500,
-              color: Color.fromARGB(255, 81, 81, 81),
+              color: Color.fromARGB(255, 93, 93, 93),
             ),
             ),
             LogosImg(),
-
+            WelcomeDialog(),
           ],
         ),
       ),
     ),
     ),
     /* ----------------------------------- */
-    /* PESTAÑA INFO DE MARISMAS NACIONALES */
+    /* ----ANCLA DE MARISMAS NACIONALES--- */
     /* ----------------------------------- */
     FractionallySizedBox(
       widthFactor: 0.9, // Factor de fracción para el ancho (0.8 = 80%)
@@ -839,7 +847,8 @@ class _BottomNavigationBarExampleState
       child: SizedBox(     
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,         
-          children: [            
+          children: [  
+            Text('\n'),          
             NewWidgetgg(),
             Text(
               '\nMarismas Nacionales',
@@ -847,11 +856,11 @@ class _BottomNavigationBarExampleState
               
             ),           
             Text(
-              '\nUbicada en los estados de Nayarit y Sinaloa, es reconocida por tener una de las mayores áreas de manglares del Pacífico Mexicano.',
+              '\nUbicada en los estados de Nayarit y Sinaloa, es reconocida por tener una de las mayores áreas de manglares del Pacífico Mexicano.\n',
               textAlign: TextAlign.justify,
               style: TextStyle(fontSize: 13),
             ),
-
+             ImgMarismas(),
             Text(
               '\nSu importancia',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -900,8 +909,11 @@ class _BottomNavigationBarExampleState
             InfogramasG(),
 
               LogosImg(),
+              
+              
+
             Text(
-              '\nProgramado por Cristian Jiménez Robles.\n',
+              '\nProgramado por Cristian Jiménez Robles © 2024\n',
               
               style: TextStyle
               (fontSize: 10, 
@@ -914,9 +926,9 @@ class _BottomNavigationBarExampleState
       ),
     ),
     ),  
-    /* ------------------------------------ */
-    /*     PESTAÑA ANEXO FOTOGRÁFICO       */
-    /* ---------------------------------- */    
+    /* ------------------------------------- */
+    /* ---ANCLA PESTAÑA ANEXO FOTOGRÁFICO---*/
+    /* ----------------------------------- */    
     FractionallySizedBox(
       widthFactor: 0.9, // Factor de fracción para el ancho (0.8 = 80%)
       child: SingleChildScrollView(            
@@ -926,28 +938,33 @@ class _BottomNavigationBarExampleState
           children: [                      
             Text(
               '\nAnexo Fotográfico\n',
+              
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
-             NewWidget2(),
-             Text('Fileteo de escama en Los Morillos, Tecuala\n',),
-             NewWidget3(),
-             Text('Embarcadero cooperativa Los Morillos, Tecuala\n',),
-             NewWidget6(),
-             Text('Sitio recepción en Los Morillos, Tecuala\n',),
-             anexosiete(),
-             Text('Sitio recepción Pimientillo, Rosamorada\n',),
-             anexoocho(),
-             Text('Jovenes de la comunidad de Boca de Camichin, Santiago Ixcuintla\n',),            
-             Galery(),             
-             //Text('\nListado de Cooperativas que participan en el\n FIP escama en Marismas Nacionales Nayarit y Sinaloa.',
-             //textAlign: TextAlign.center,),
-             //Imgtable(),
-             //Imgtable2(),
+            ),            
+                         
+             Text(
+              '\nMonitoreo Pesquero\n',
+              style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
+            ), 
+             GaleryA(),
+            Text(
+              '\nCapacitación y acciones de FIP\n',
+              style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
+            ),  
+             GaleryB(), 
+            Text(
+              '\nSitios de Recepción\n',
+              style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
+            ),    
+             GaleryC(),
+             
+             Text('\n'),
 
+             GaleryD(),    
              LogosImg(),
 
             Text(
-              'Programado por Cristian Jiménez Robles.\n',
+              'Programado por Cristian Jiménez Robles © 2024\n',
               
               style: TextStyle
               (fontSize: 10, 
@@ -966,8 +983,12 @@ class _BottomNavigationBarExampleState
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
+    
     });
+  
   }
+  
+  
     /* ----------------------------------- */
     /* --------------APPBAR--------------- */
     /* ----------------------------------- */  
@@ -985,7 +1006,7 @@ class _BottomNavigationBarExampleState
           padding: EdgeInsets.only(left: 16.0), // Agregar un padding
           child: CircleAvatar(
             backgroundColor: Colors.transparent, // Color de fondo transparente para el círculo
-            backgroundImage: AssetImage('assets/images/appbaricon.jpeg'), // Ruta de tu imagen
+            backgroundImage: AssetImage('assets/images/robaloicon2.jpeg'), // Ruta de tu imagen
             radius: 20, // Cambiar el tamaño de la imagen
           ),
         ),
@@ -994,7 +1015,7 @@ class _BottomNavigationBarExampleState
     /* -----------NAVBAR ICONS------------ */
     /* ----------------------------------- */   
       body: Container(
-       //ancla//
+       //ANCLA NAVBAR ICONS//
         color: Color.fromARGB(255, 255, 255, 255),
        // color: Color.fromARGB(255, 201, 249, 249), // Define el color de fondo del cuerpo aquí
         child: Center(
@@ -1021,13 +1042,16 @@ class _BottomNavigationBarExampleState
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.photo),
-            label: 'Anexo Fotográfico',
+            label: 'Fotos',
             backgroundColor: Color.fromARGB(255, 40, 70, 160),
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Color.fromARGB(255, 242, 248, 51),
-        onTap: _onItemTapped,
+        selectedItemColor: Color.fromARGB(255, 255, 251, 11),
+        onTap: _onItemTapped, 
+        
+        showSelectedLabels: true, // Mostrar etiquetas seleccionadas
+        showUnselectedLabels: true,
       ),
     );
   }
@@ -1447,7 +1471,7 @@ class Galery2 extends StatelessWidget{
         Padding(
           padding: const EdgeInsets.only(bottom: 1.0),
           child: InteractiveViewer(
-            child: Image.asset('assets/marismas/tucan.jpeg'),
+            child: Image.asset('assets/marismas/garzap.jpeg'),
           ),
         ),
         Padding(
@@ -1520,7 +1544,31 @@ class InfogramasG extends StatelessWidget{
             'Infograma Curvina',
           ),
         ),
-
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/marismas/infograma_bpracticas.jpeg'),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Buenas prácticas de manejo a bordo',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/marismas/infograma_pesca.jpeg'),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Manejo de una pesca responsable',
+          ),
+        ),
+        
       ],
     );
   }
@@ -1558,30 +1606,12 @@ class Imgtable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InteractiveViewer(
-      boundaryMargin: EdgeInsets.all(10),
+       boundaryMargin: EdgeInsets.all(10),
       minScale: 0.1,
       maxScale: 4.0,
+      
       child: Image.asset(
-        'assets/images/tablee.png', // Ruta de la imagen
-        fit: BoxFit.contain, // Ajustar la imagen al contenedor
-      ),
-    );
-  }
-}
-
-class Imgtable2 extends StatelessWidget {
-  const Imgtable2({
-    super.key,
-  });
-  
-  @override
-  Widget build(BuildContext context) {
-    return InteractiveViewer(
-      boundaryMargin: EdgeInsets.all(20),
-      minScale: 0.1,
-      maxScale: 4.0,
-      child: Image.asset(
-        'assets/images/tablee2.png', // Ruta de la imagen
+        'assets/images/tablacooperativas.jpg', // Ruta de la imagen
         fit: BoxFit.contain, // Ajustar la imagen al contenedor
       ),
     );
@@ -1598,52 +1628,7 @@ class LogosImg extends StatelessWidget {
     return Image.asset('assets/images/barradelogoss.png', width: double.infinity,);//anexo logos    
   }
 }
-class anexosiete extends StatelessWidget {
-  const anexosiete({
-    super.key,
-  });
-  
-  @override
-  Widget build(BuildContext context) {
-    return InteractiveViewer(
-      boundaryMargin: EdgeInsets.all(10),
-      minScale: 0.1,
-      maxScale: 4.0,
-      child: Image.asset(
-        'assets/images/anexo7.jpeg', // Ruta de la imagen
-        fit: BoxFit.contain, // Ajustar la imagen al contenedor
-      ),
-    );
-  }
-}
-class anexoocho extends StatelessWidget {
-  const anexoocho({
-    super.key,
-  });
-  
-  @override
-  Widget build(BuildContext context) {
-    return InteractiveViewer(
-      boundaryMargin: EdgeInsets.all(10),
-      minScale: 0.1,
-      maxScale: 4.0,
-      child: Image.asset(
-        'assets/images/anexo8.jpeg', // Ruta de la imagen
-        fit: BoxFit.contain, // Ajustar la imagen al contenedor
-      ),
-    );
-  }
-}
-class anexonueve extends StatelessWidget {
-  const anexonueve({
-    super.key,
-  });
-  
-  @override
-  Widget build(BuildContext context) {
-    return Image.asset('assets/images/anexo9.jpeg');   
-  }
-}
+
 class MyList extends StatefulWidget {
   final List<ItemData> items;
 
@@ -1713,12 +1698,22 @@ class _MyListState extends State<MyList> {
                   SizedBox(height: 10),                 
                   Image.asset(
                     item.imagePath,
-                    // height del retorno de elementos //
+                    //height del retorno de elementos //
                     height: 150,
                     width: double.infinity,
                     fit: BoxFit.contain,
                     
                   ),
+                  // Usar PhotoView en lugar de Image.asset
+                  /* Container( 
+                    height: 300, // Ajusta la altura según sea necesario
+                    width: double.infinity,
+                    child: PhotoView(
+                      imageProvider: AssetImage(item.imagePath),
+                      minScale: PhotoViewComputedScale.contained,
+                      maxScale: PhotoViewComputedScale.covered,
+                    ),
+                  ),*/
                   Text(item.expandedValue2
                  
                 ), //Posicion del 'aditional info'
@@ -1766,6 +1761,878 @@ class Item {
   String imagePath;
   bool isExpanded;
 }
+
+// Monitoreo Pesquero
+class GaleryA extends StatelessWidget{
+  const GaleryA({
+    super.key,
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+      
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo de escama en la Brecha, Teacapan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Revision de Bitácoras de producción con el monitor de La Brecha, Teacapan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo en la Brecha Teacapan, Sinaloa.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m4.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo pesquero (ENIP-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m5.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo peces en Los Morillos, Tecuala (BLUE MX-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m6.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo de escama en Boca de Camichin.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m7.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitor pesquero en Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m8.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Fileteo de escama en Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m9.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo de Escama en Boca de Camichín.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m10.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo Pesquero Pimientillo, Rosamorada.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m11.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo Pimientillo (UAN).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m12.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo Boca de Camichín (ENIP-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m13.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo de peces (SEDER-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m14.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo peces San Blas (ENIP-CONANP).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/f1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo de Robalo en Boca de Camichín.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/f2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Robalo garabato en la zona de Pimientillo, Rosamorada.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/f3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Captura de escama en la cooperativa de  La Brecha, Teacapan.',
+          ),
+        ),
+      ],
+    );
+  }
+}
+/* Capacitaciones y acciones del FIP */
+class GaleryB extends StatelessWidget{
+  const GaleryB({
+    super.key,
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+      
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación a pescadores de La Brecha (Ayuntamiento Escuinapa-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación tema Responsabilidad Social a pescadores de la cooperativa de Los Morillos, Tecuala (CDDHN-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación a hijos de pescadores derechos de los niños, cooperativa Los Morillos (CDDHN-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c4.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Seguimiento a las acciones del FIP escama en Boca de Camichin (UPEN-Ayto. Santiago-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c5.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Ejercicio piloto prospectivo de trazabilidad en la cadena de valor pesquera de escama en Marismas Nacionales.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c6.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Instalación y capacitación del software de captura digital de producción pesquera en la cooperativa de IGNLOGAR (UPEN-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c7.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación Buenas practicas pesqueras (CESANAY).',
+          ),
+        ),
+        /* <<<< Recorridos >>>> */
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/r1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Recorrido Boca Camichin (CIAD, UPEN, PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/r2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Recorrido en la zona de pesca de Pericos (CONANP-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/r3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Recorrido en la zona de pesca de la cooperativa de IGNLOGAR, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/r4.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Recorrido zona de pesca cooperativa de Union de Corrientes, Tuxpan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/r5.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Recorrido en la zona de pesca de Boca de Camichin (ENIP-PNO).',
+          ),
+        ),
+        /* <<<< FIP >>>> */
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Reunion con la cooperativa Boca de Camichin.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Visita a la cooperativa Ostricamichín (CESANAY, UPEN, CIAD, INEA, PNO y comercializadores).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación a pescadores de Teacapan y La brecha en el municipio de Escuinapa, Sinaloa, (Manejo de producto a bordo).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip4.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Reunion con el consejo de administración de la cooperativa de Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip5.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Reunion del FIP escama (2019).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip6.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Revision del programa trabajo FIP escama (SEDER-UAN-CESANAY-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip7.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Grupo académico del FIP de escama en Marismas (IMIPAS-UAN-PROMACOS-SEDER-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip8.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Reunion del FIP Escama en la cooperativa de IGNLOGAR Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/fip9.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Reunion del FIP escama (noviembre 2023).',
+          ),
+        ),
+      ],
+    );
+  }
+}
+/* Sitios de Recepción & Embarcaderos */
+class GaleryC extends StatelessWidget{
+  const GaleryC({
+    super.key,
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+      
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Centro recepción Boca Camichin, Santiago Ixc.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio de Recepción cooperativa Pericos, Rosamorada.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio recepción Pericos, Rosamorada.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s4.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio de La Brecha, Teacapan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s5.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio de Recepción en Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s6.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio de recepción Cooperativa de IGNLOGAR, Antonio R. Laureles Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s7.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Robalo en el sitio de recepción de Boca Camichin.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s8.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Embarcadero cooperativa Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s9.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio recepción en Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s10.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio recepción Pimientillo, Rosamorada.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s11.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Embarcadero la Brecha, Teacapan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s12.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Embarcadero Boca Asadero, San Blas.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s13.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio recepción Boca de Camichín.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s14.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio Recepción Pimientillo, Rosamorada.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s15.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Embarcadero Unión de Corrientes, Tuxpan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s16.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Embarcadero Cooperativa IGNLOGAR, Tecuala.',
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class GaleryD extends StatelessWidget{
+  const GaleryD({
+    super.key,
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+      
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p3.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Diagnostico capacidad financiera consejo cooperativa de Union Corrientes, Tuxpan (UPEN-PNO).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p7.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'La Brecha, Teacapan, Sinaloa.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p4.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Boca de Camichín.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p5.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pescador de Boca de Camichín.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Jóvenes de la comunidad de Boca de Camichín, Santiago Ixcuintla.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pescadores de la zona de Marismas, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p6.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Comunidad de Boca del Asadero, San Blas.',
+          ),
+        ),
+  ],
+);
+}
+}
+
+class ImgMarismas extends StatelessWidget {
+  const ImgMarismas({
+    super.key,
+  });
+  
+  @override
+  Widget build(BuildContext context) {
+    return InteractiveViewer(
+      boundaryMargin: EdgeInsets.all(10),
+      minScale: 0.1,
+      maxScale: 1.0,
+      child: Image.asset(
+        'assets/marismas/marismas.jpeg',
+        /* fit: BoxFit.cover,  */
+        width: 200,
+        height: 100,
+      ),
+    );
+  }
+}
+class WelcomeDialog extends StatelessWidget{
+  const WelcomeDialog({
+    super.key,
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Container(
+        width: 300,
+        height: 200,
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              '¡Gracias por instalar mi app!',
+              style: TextStyle(fontSize: 18),
+            ),
+            SizedBox(height: 20),
+            Image.asset(
+              'assets/my_image.png', // Ruta de tu imagen
+              width: 100,
+              height: 100,
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context); // Cierra la ventana emergente
+              },
+              child: Text('Cerrar'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+  /* @override 
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: Text('Hola'),
+      content: Text('Bienvenido a mi aplicación'),
+      actions: [
+        TextButton(
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+          child: Text('Cerrar'),
+        ),
+      ],
+    );
+  }
+} */
     /* ----------------------------------- */
     /* ----BY CRISTIAN JIMENEZ ROBLES----- */
     /* ----------------------------------- */
