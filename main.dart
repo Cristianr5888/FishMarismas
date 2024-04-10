@@ -791,7 +791,7 @@ class _BottomNavigationBarExampleState
             Text('\nListado de Cooperativas que participan en el\n FIP escama en Marismas Nacionales Nayarit y Sinaloa.',
             textAlign: TextAlign.center,),
             Imgtable(),
-            
+            WelcomeDialog(),
             Text(
                         
               '\n\nDirectorio'
@@ -832,7 +832,7 @@ class _BottomNavigationBarExampleState
             ),
             ),
             LogosImg(),
-            WelcomeDialog(),
+            
           ],
         ),
       ),
@@ -958,9 +958,13 @@ class _BottomNavigationBarExampleState
             ),    
              GaleryC(),
              
-             Text('\n'),
+             Text(
+              '\nFotos adicionales\n',
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            ), 
 
              GaleryD(),    
+
              LogosImg(),
 
             Text(
@@ -1006,7 +1010,7 @@ class _BottomNavigationBarExampleState
           padding: EdgeInsets.only(left: 16.0), // Agregar un padding
           child: CircleAvatar(
             backgroundColor: Colors.transparent, // Color de fondo transparente para el círculo
-            backgroundImage: AssetImage('assets/images/robaloicon2.jpeg'), // Ruta de tu imagen
+            backgroundImage: AssetImage('assets/icons/appbaricon.jpeg'), // Ruta de tu imagen
             radius: 20, // Cambiar el tamaño de la imagen
           ),
         ),
@@ -2076,6 +2080,30 @@ class GaleryB extends StatelessWidget{
             'Capacitación Buenas practicas pesqueras (CESANAY).',
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c9.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación en la bitácora electronica, monitor pesquero de Pimientillo.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/capacitacion/c10.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Capacitación a pescados e hijos de pescadores en la captura digital de la producción pesquera en Teacapan, Sinaloa (CETMAR 23-Ayto. Escuinapa-PNO).',
+          ),
+        ),
         /* <<<< Recorridos >>>> */
         Padding(
           padding: const EdgeInsets.only(bottom: 1.0),
@@ -2453,6 +2481,18 @@ class GaleryC extends StatelessWidget{
             'Embarcadero Cooperativa IGNLOGAR, Tecuala.',
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/sitio/s17.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Embarcadero de La Barra camino a Novillero en Tecuala.',
+          ),
+        ),
       ],
     );
   }
@@ -2528,6 +2568,104 @@ class GaleryD extends StatelessWidget{
             'Jóvenes de la comunidad de Boca de Camichín, Santiago Ixcuintla.',
           ),
         ),
+        
+        
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p8.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pescador de la cooperativa de Boca de Camichín.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p10.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Robalo garabato en la zona de pesca de Boca de Camichin.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p12.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pescador de la comunidad de Los Morillos, Tecuala.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p15.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Sitio de pimientillo.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p13.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pesca con línea de mano en la zona de Union de Corrientes.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/p14.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pescador de Union de Corrientes en Tuxpan.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/z1.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Comunidad de Boca del Asadero, San Blas.',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/z2.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Pesca con anzuelo en la cooperativa de IGNLOGAR.',
+          ),
+        ),
         Padding(
           padding: const EdgeInsets.only(bottom: 1.0),
           child: InteractiveViewer(
@@ -2543,13 +2681,13 @@ class GaleryD extends StatelessWidget{
         Padding(
           padding: const EdgeInsets.only(bottom: 1.0),
           child: InteractiveViewer(
-            child: Image.asset('assets/fotos/p6.jpeg'),
+            child: Image.asset('assets/fotos/z3.jpeg'),
           ),
         ),
          Padding( 
           padding: const EdgeInsets.only(bottom: 32.0),
           child: Text(
-            'Comunidad de Boca del Asadero, San Blas.',
+            'Zona de Marismas',
           ),
         ),
   ],
@@ -2583,56 +2721,66 @@ class WelcomeDialog extends StatelessWidget{
   });
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        width: 300,
-        height: 200,
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(10),
-        ),
+   return AlertDialog(
+      content: Padding(
+        padding: const EdgeInsets.all(6.0), // Ajusta el valor según tus necesidades
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            // Contenido de la ventana emergente
             Text(
-              '¡Gracias por instalar mi app!',
+              '¡Gracias por instalar la app!',
               style: TextStyle(fontSize: 18),
+              textAlign: TextAlign.center,
             ),
+            SizedBox(height: 10),
+            /* Text( 
+              'Esta aplicación fue diseñada para Pescadores que viven en la zona denominada Sitio Ramsar #732 Marismas Nacionales, es una herramienta digital, que apoya la identificación taxonómica de las especies de escama que capturan en esta hermosa zona geográfica.\n',
+              style: TextStyle(fontSize: 15),
+            ),*/
+            
+            RichText(
+              textAlign: TextAlign.justify,
+              text: TextSpan(
+                
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.black,
+                  
+                ),
+                children: [
+                  TextSpan(text: 'Esta aplicación fue diseñada para Pescadores que viven en la zona denominada ',
+                  style: TextStyle(
+                    /* textAlign: TextAlign.justify, */
+                    color: Colors.black,
+                  ),
+                ),
+                  TextSpan(
+                    text: 'Sitio Ramsar #732 Marismas Nacionales, ',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                  ),
+                  TextSpan(text: 'es una herramienta digital que apoya la identificación taxonómica de las especies de escama que capturan en esta hermosa zona geográfica.'),
+                ],
+              ),
+            ),
+    
             SizedBox(height: 20),
             Image.asset(
-              'assets/my_image.png', // Ruta de tu imagen
-              width: 100,
-              height: 100,
-            ),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pop(context); // Cierra la ventana emergente
-              },
-              child: Text('Cerrar'),
+              'assets/icons/appbaricon.jpeg', // Ruta de tu imagen
+              width: 80,
+              height: 80,
             ),
           ],
         ),
       ),
+      // Resto de las propiedades de la ventana emergente
     );
   }
 }
-  /* @override 
-  Widget build(BuildContext context) {
-    return AlertDialog(
-      title: Text('Hola'),
-      content: Text('Bienvenido a mi aplicación'),
-      actions: [
-        TextButton(
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-          child: Text('Cerrar'),
-        ),
-      ],
-    );
-  }
-} */
+
+  
     /* ----------------------------------- */
     /* ----BY CRISTIAN JIMENEZ ROBLES----- */
     /* ----------------------------------- */
