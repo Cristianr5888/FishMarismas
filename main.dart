@@ -52,7 +52,7 @@ class _BottomNavigationBarExampleState
           header: 'Robalo garabato',
           content: 'Nombre común: Robalo garabato',          
           cientific: 'Nombre científico: Centropomus viridis',          
-          aditionalinfo:'\nHábitat: vive en zonas someras de arena-fango con poca transparencia, como bahías estuarios, lagunas y partes bajas  de los ríos, sistemas que utilizan para protección,  crianza y alimentación. \nSe alimenta de camarones, cangrejos y peces.'
+          aditionalinfo:'\nHábitat: Vive en zonas someras de arena-fango con poca transparencia, como bahías estuarios, lagunas y partes bajas  de los ríos, sistemas que utilizan para protección,  crianza y alimentación. \nSe alimenta de camarones, cangrejos y peces.'
           '\n  \nSu distribución es desde el Golfo de California hasta Perú.'
           '\n \nTalla máxima encontrada: 130 cm.',
           imagePath: 'assets/images/robalog.png',          
@@ -116,12 +116,12 @@ class _BottomNavigationBarExampleState
          
           header: 'Pargo listoncillo',
           content: 'Nombre común: Pargo listoncillo',
-          cientific: 'Nombre científico: Lutjanus novemfasciatus',
-          /* '\nNombre Científico: Lutjanus novemfasciatu', */
+          cientific: 'Nombre científico: Lutjanus argentiventris',
+          /* '\nNombre Científico: Lutjanus argentiventris', */
          
           aditionalinfo:'\nHábitat: Se encuentra en fondos rocosos y arenosos, hasta 90 m de profundidad; prefiere zonas de refugio típicamente marinas.'
-          '\nSe alimenta de cangrejos, en especial cangrejos, camarones, cefalópodos, vivalos y peces.'
-					'\n \nSu distribución es desde Baja California y Golfo de California  a  Perú.'
+          '\nSe alimenta de cangrejos, en especial cangrejos, camarones, pulpos, calamares y peces óseos.'
+					'\n \nSu distribución es desde el sur de California  a  Perú.'
           '\n \nTalla máxima encontrada: 71 cm.',
           imagePath: 'assets/images/pargoli.png',
          
@@ -134,7 +134,7 @@ class _BottomNavigationBarExampleState
           cientific: 'Nombre científico: Lutjanus novemfasciatus',
           /* '\nNombre Científico: Lutjanus novemfasciatus', */
          
-          aditionalinfo:'\nHábitat: Se encuentra en fondos rocosos y arenosos, hasta 90 m de profundidad; prefiere zonas de refugio típicamente marinas.'
+          aditionalinfo:'\nHábitat: Se encuentra en costas cálidas, en zonas rocosas y arrecifes de coral hasta 60 m de profundidad.'
           '\nSe alimenta de cangrejos, en especial cangrejos, camarones, cefalópodos, vivalos y peces.'
 					'\n \nSu distribución es desde el norte de México al norte de Perú. '
           '\n \nTalla máxima encontrada: 170 cm.',
@@ -179,7 +179,7 @@ class _BottomNavigationBarExampleState
           cientific: 'Nombre científico: Epinephelus itajara',
           /* '\nNombre Científico: Epinephelus itajara', */
          
-          aditionalinfo:'\nHábitat: áreas protegidas y someras sobre fondos de roca, coral y lodo hasta 100 m de profundidad.'
+          aditionalinfo:'\nHábitat: Áreas protegidas y someras sobre fondos de roca, coral y lodo hasta 100 m de profundidad.'
           '\nSe alimenta de camarones, langostas, cefalópodos, tortugas, peces, tiburones, algunos mamíferos y aves.'
 					'\n \nSu distribución es desde el sur de Baja California a Perú.'
           '\n \nTalla máxima encontrada: 250 cm.',
@@ -287,7 +287,7 @@ class _BottomNavigationBarExampleState
           cientific: 'Nombre científico: Pomadasys macracanthus',
           /* '\nNombre Científico: Pomadasys macracanthus', */
          
-          aditionalinfo:'\nHábitat: vive en aguas costeras en fondos arenosos o de lodo, esteros y bocas de rios.'
+          aditionalinfo:'\nHábitat: Vive en aguas costeras en fondos arenosos o de lodo, esteros y bocas de rios.'
           '\nSe alimenta de camarones, cangrejos, pulpos y sepias.'
 					'\n \nSu distribución es desde el Golfo de California a Ecuador.'
           '\n \nTalla máxima encontrada: 35 cm.',
@@ -399,7 +399,7 @@ class _BottomNavigationBarExampleState
         cientific: 'Nombre científico: Trachinotus kennedyi',
         /* '\nNombre Científico: Trachinotus kennedyi', */
        
-        aditionalinfo:'\nHábitat: vive en fondos suaves de fango, arena, grava, playa, estero y manglar, suele habitar también en agua dulce y columnas de agua.'
+        aditionalinfo:'\nHábitat: Vive en fondos suaves de fango, arena, grava, playa, estero y manglar, suele habitar también en agua dulce y columnas de agua.'
         '\nSu dieta consiste en peces óseos, camarones y cangrejos.'
         '\n \nSu distribución es desde Baja California a Perú.'
         '\n \nTalla máxima encontrada: 90 cm.',
@@ -432,7 +432,7 @@ class _BottomNavigationBarExampleState
         cientific: 'Nombre científico: Chanos chanos',
         /* '\nNombre Científico: Chanos chanos', */
        
-        aditionalinfo:'\nHábitat: suele vivir en arrecifes, agua dulce, corales y columnas de agua.'
+        aditionalinfo:'\nHábitat: Suele vivir en arrecifes, agua dulce, corales y columnas de agua.'
         '\nSu dieta consiste en larvas pelágicas de peces, huevos pelágicos de peces, microalgas, camarones y cangrejos.'
         '\n \nSu distribución es desde el Sur de California a Perú.'
         '\n \nTalla máxima encontrada: 180 cm.',
@@ -446,7 +446,7 @@ class _BottomNavigationBarExampleState
          
           header: 'Mojarra aleta amarilla',
         content: 'Nombre común: Mojarra aleta amarilla',
-        cientific: 'Nombre científico: Diapterus peruvianus/brevirostris',
+        cientific: 'Nombre científico: Diapterus brevirostris',
         /* '\nNombre Científico: Diapterus peruvianus', */
        
         aditionalinfo:'\nHábitat: Se encuentra en fondos de arena y esteros, incluyendo aguas salobres de las bocas de ríos.'
@@ -499,7 +499,7 @@ class _BottomNavigationBarExampleState
       cientific: 'Nombre científico: Sphoeroides annulatus',
       /* '\nNombre Científico: Sphoeroides annulatus', */
      
-      aditionalinfo:'\nHábitat: vive en fondos de arena, grava, manglar, estero, columnas de agua y fondos suaves.'
+      aditionalinfo:'\nHábitat: Vive en fondos de arena, grava, manglar, estero, columnas de agua y fondos suaves.'
       '\nSu dieta consiste en gasterópodos, pulpos, calamares, sepias, camarones y cangrejos.'
       '\n \nSu distribución es desde el Golfo de California a Perú.'
       '\n \nTalla máxima encontrada: 44 cm.',
@@ -668,7 +668,7 @@ class _BottomNavigationBarExampleState
   cientific: 'Nombre científico: Eleotris picta',
   
        
-  aditionalinfo:'\nHábitat: los adultos principalmente se restringen a agua dulce; juveniles se encuentran en áreas intermareales de baja salinidad, en las bocas de los ríos.'
+  aditionalinfo:'\nHábitat: Los adultos principalmente se restringen a agua dulce; juveniles se encuentran en áreas intermareales de baja salinidad, en las bocas de los ríos.'
   '\nSu dieta consiste en camarones, cangrejos y peces óseos.'
   '\n \nSu distribución es desde California a Perú.'
   '\n \nTalla máxima encontrada: 44 cm.',
@@ -682,7 +682,7 @@ class _BottomNavigationBarExampleState
   cientific: 'Nombre científico: Gobiomorus maculatus',
   
        
-  aditionalinfo:'\nHábitat: normalmente se encuentra en agua dulce, pero tambien en áreas intermareales de baja salinidad.'
+  aditionalinfo:'\nHábitat: Normalmente se encuentra en agua dulce, pero tambien en áreas intermareales de baja salinidad.'
   '\nSu dieta consiste en camarones, cangrejos, zooplancton y peces óseos.'
   '\n \nSu distribución es desde Baja y Golfo de California al norte de Perú.'
   '\n \nTalla máxima encontrada: 27 cm.',
@@ -695,7 +695,7 @@ class _BottomNavigationBarExampleState
   cientific: 'Nombre científico: Gobiomorus polylepis',
   
        
-  aditionalinfo:'\nHábitat: suele vivir en fondos rocosos en arroyos con corriente; también en lagunas salobres.'
+  aditionalinfo:'\nHábitat: Suele vivir en fondos rocosos en arroyos con corriente; también en lagunas salobres.'
   '\nSu dieta consiste en camarones, cangrejos, zooplancton e insectos.'
   '\n \nSu distribución es desde Baja y Boca de California a Ecuador.'
   '\n \nTalla máxima encontrada: 28 cm.',
@@ -708,7 +708,7 @@ class _BottomNavigationBarExampleState
       header: 'Puyeque',
   content: 'Nombre común: Puyeque',
   cientific: 'Nombre científico: Dormitator latifrons',      
-  aditionalinfo:'\nHábitat: normalmente se encuentra en aguas dulces y salobres.'
+  aditionalinfo:'\nHábitat: Normalmente se encuentra en aguas dulces y salobres.'
   '\nSu dieta consiste mayormente en microalgas e insectos.'
   '\n \nSu distribución es desde el sur de California, hasta el norte de Perú.'
   '\n \nTalla máxima encontrada: 41 cm.',
@@ -719,7 +719,7 @@ class _BottomNavigationBarExampleState
       header: 'Lenguado/Comalito',
   content: 'Nombre común: Lenguado/Comalito',
   cientific: 'Nombre científico: Achirus mazatlanus',      
-  aditionalinfo:'\nHábitat: suele vivir en fondos de lodo suave o de arena de bahías y esteros; también entra en agua dulce.'
+  aditionalinfo:'\nHábitat: Suele vivir en fondos de lodo suave o de arena de bahías y esteros; también entra en agua dulce.'
   '\nSu dieta consiste en camarones, cangrejos y peces óseos.'
   '\n \nSu distribución es desde el Golfo de California a Perú.'
   '\n \nTalla máxima encontrada: 22.5 cm.',
@@ -730,7 +730,7 @@ class _BottomNavigationBarExampleState
     header: 'Gualicoche',
     content: 'Nombre común: Gualicoche',
     cientific: 'Nombre científico: Ctenogobius sagittula',      
-    aditionalinfo:'\nHábitat: suele vivir en fondos de arena y lodo en bahías y esteros de poca profundidad.'
+    aditionalinfo:'\nHábitat: Suele vivir en fondos de arena y lodo en bahías y esteros de poca profundidad.'
   '\nSu dieta consiste en microalgas.'
   '\n \nSu distribución es desde el Golfo de California al norte de Perú.'
   '\n \nTalla máxima encontrada: 20 cm.',
@@ -743,21 +743,29 @@ class _BottomNavigationBarExampleState
     /* ----------------------------------- */
     /* --------ANCLA PESTAÑA FIP----------- */
     /* ----------------------------------- */   
+    
+    
     FractionallySizedBox(
-      widthFactor: 0.9, // Factor de fracción para el ancho (0.8 = 80%)
+      widthFactor: 0.92, // Factor de fracción para el ancho (0.8 = 80%)
+      
       child: SingleChildScrollView(
+       
       child: SizedBox(
+        
         //width: 340, // Ancho de la pantalla en pixeles (no recomendado)
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('\n'),
+                 
+            WelcomeDialog(),
+            
             NewWidget(), 
             Text(
               '\nProyecto de Mejora Pesquera (FIP) Escama',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
+            
             Text(
               '\n¿Qué es un Proyecto de Mejora Pesquera?',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
@@ -791,7 +799,7 @@ class _BottomNavigationBarExampleState
             Text('\nListado de Cooperativas que participan en el\n FIP escama en Marismas Nacionales Nayarit y Sinaloa.',
             textAlign: TextAlign.center,),
             Imgtable(),
-            WelcomeDialog(),
+            
             Text(
                         
               '\n\nDirectorio'
@@ -806,43 +814,46 @@ class _BottomNavigationBarExampleState
               '\n\n'
               'D R Robertson, Gerald R Allen, E. Peña, C. & A. Estape. 2024. Peces Costeros del Pacífico Oriental Tropical: sistema de Información en línea. Versión 3.0 Instituto Smithsonian de Investigaciones Tropicales, Balboa, República de Panamá.\n'
 
-              '\n\nProgramado por Cristian Jiménez Robles © 2024'
+              '\n\nProgramado por Cristian L. Jiménez Robles © 2024'
               '\nCon la ayuda de los estudiantes de la UPEN: Jasiel Martinez, Carlos Ramirez y Zaira Morquecho.',
               
 
               style: TextStyle
-              (fontSize: 9, 
+              (fontSize: 8, 
               fontWeight: FontWeight.w500,
-              color: Color.fromARGB(255, 93, 93, 93),
+              color: Color.fromARGB(255, 120, 120, 120),
               
             ),
             ),
             
             Text(
-              '\n\nEsta aplicación fue elaborada por el Ing. Cristian Jiménez Robles (UPEN) en colaboración con:\n' 
+              '\n\nEsta aplicación fue elaborada por el Ing. Cristian L. Jiménez Robles (UPEN) en colaboración con:\n' 
               'BM Mauricio Cortés Hernández (PNO)\n'       
               'Biól. Carlos Torrescano Castro (PNO)\n'
               'Ing. César Rodríguez Quintanilla (PNO)\n'
               'Asesor académico: Dr. Juan Ramón Flores Ortega (ENIP).\n',
               
               style: TextStyle
-              (fontSize: 9, 
+              (fontSize: 8, 
               fontWeight: FontWeight.w500,
-              color: Color.fromARGB(255, 93, 93, 93),
+              color: Color.fromARGB(255, 120, 120, 120),
             ),
             ),
             LogosImg(),
-            
+          
+        
           ],
         ),
       ),
     ),
     ),
+  
+    
     /* ----------------------------------- */
     /* ----ANCLA DE MARISMAS NACIONALES--- */
     /* ----------------------------------- */
     FractionallySizedBox(
-      widthFactor: 0.9, // Factor de fracción para el ancho (0.8 = 80%)
+      widthFactor: 0.92, // Factor de fracción para el ancho (0.8 = 80%)
       child: SingleChildScrollView(     
       child: SizedBox(     
         child: Column(
@@ -909,11 +920,9 @@ class _BottomNavigationBarExampleState
             InfogramasG(),
 
               LogosImg(),
-              
-              
-
+                          
             Text(
-              '\nProgramado por Cristian Jiménez Robles © 2024\n',
+              '\nProgramado por Cristian L. Jiménez Robles © 2024\n',
               
               style: TextStyle
               (fontSize: 10, 
@@ -930,7 +939,7 @@ class _BottomNavigationBarExampleState
     /* ---ANCLA PESTAÑA ANEXO FOTOGRÁFICO---*/
     /* ----------------------------------- */    
     FractionallySizedBox(
-      widthFactor: 0.9, // Factor de fracción para el ancho (0.8 = 80%)
+      widthFactor: 0.95, // Factor de fracción para el ancho (0.8 = 80%)
       child: SingleChildScrollView(            
       child: SizedBox(       
         child: Column(
@@ -1015,13 +1024,12 @@ class _BottomNavigationBarExampleState
           ),
         ),
       ),
-    /* ----------------------------------- */
-    /* -----------NAVBAR ICONS------------ */
+    /* ------------------------------------- */
+    /* ---------ANCLA NAVBAR ICONS--------- */
     /* ----------------------------------- */   
-      body: Container(
-       //ANCLA NAVBAR ICONS//
-        color: Color.fromARGB(255, 255, 255, 255),
-       // color: Color.fromARGB(255, 201, 249, 249), // Define el color de fondo del cuerpo aquí
+      body: Container(      
+        color: Color.fromARGB(255, 255, 255, 255), // Define el color de fondo del cuerpo aquí
+        
         child: Center(
           child: _widgetOptions.elementAt(_selectedIndex),
         ),       
@@ -1209,234 +1217,6 @@ class NewImag extends StatelessWidget{
     );
   }
 }
-class Galery extends StatelessWidget{
-  const Galery({
-    super.key,
-  });
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Padding(
-          padding: const EdgeInsets.only(bottom: 1.0),
-          child: InteractiveViewer(
-            child: Image.asset('assets/images/img1.jpeg'),
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.only(bottom: 32.0),
-          child: Text(
-            'Boca de Camichin',
-          ),
-        ),
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img2.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Embarcadero la Brecha, Teacapan',
-  ),
-),
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img3.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'la Brecha, Teacapan, Sinaloa',
-  ),
-),
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img4.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Monitoreo de Escama en Boca de Camichin',
-  ),
-),
-
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img5.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Monitoreo de Robalo en Boca de Camichin',
-  ),
-),
-
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img6.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Pescador de Boca de Camichín',
-  ),
-),
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img7.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Embarcadero Boca Asadero, San Blas',
-  ),
-),
-//--------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img8.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Sitio Recepción Boca de Camichín',
-  ),
-),
-
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img9.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Monitor Pesquero Pimientillo, Rosamorada',
-  ),
-),
- 
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img10.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Sitio Recepción Pimientillo, Rosamorada',
-  ),
-),
-
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img11.jpeg'),
-  ),
-),
-  Padding(
-    padding: const EdgeInsets.only(bottom: 32.0),
-    child: Text(
-      'Monitoreo Pimientillo (UAN)',
-    ),
-  ),
-
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img12.jpeg'),
-  ),
-),
-  Padding(
-   padding: const EdgeInsets.only(bottom: 32.0),
-   child: Text(
-      'Embarcadero Unión de Corrientes, Tuxpan',
-    ),
-  ),
-// --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img13.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Embarcadero Cooperativa IGNLOGAR, Tecuala',
-  ),
-),
- // --------------SEPARACIÓN---------------//
-Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img14.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Monitoreo Boca Camichin (ENIP-PNO)',
-  ),
-),
- // --------------SEPARACIÓN---------------//
- Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img15.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Monitoreo de peces (SEDER-PNO)',
-  ),
-),
- // --------------SEPARACIÓN---------------//
- Padding(
-  padding: const EdgeInsets.only(bottom: 1.0),
-  child: InteractiveViewer(
-    child: Image.asset('assets/images/img16.jpeg'),
-  ),
-),
-Padding(
-  padding: const EdgeInsets.only(bottom: 32.0),
-  child: Text(
-    'Monitoreo peces San Blas (ENIP-CONANP)\n',
-  ),
-),
-      ],
-    );
-  }
-}
-
-
 
 class Galery2 extends StatelessWidget{
   const Galery2({
@@ -1451,7 +1231,7 @@ class Galery2 extends StatelessWidget{
         Padding(
           padding: const EdgeInsets.only(bottom: 1.0),
           child: InteractiveViewer(
-            child: Image.asset('assets/marismas/jaguar.jpeg'),
+            child: Image.asset('assets/marismas/jaguars.jpeg'),
           ),
         ),
         Padding(
@@ -1578,8 +1358,6 @@ class InfogramasG extends StatelessWidget{
   }
 }
 
-
-
 // Creación de las clases para añadir nuevas Imagenes
 // Solo manda a llamar la clase  NewClass(),
 
@@ -1700,13 +1478,25 @@ class _MyListState extends State<MyList> {
                 ),
                             
                   SizedBox(height: 10),                 
-                  Image.asset(
+                  /* Image.asset( 
                     item.imagePath,
                     //height del retorno de elementos //
                     height: 150,
                     width: double.infinity,
                     fit: BoxFit.contain,
                     
+                  ),*/
+                  InteractiveViewer(
+                    boundaryMargin: EdgeInsets.all(20.0), // Márgenes para restringir la interacción
+                    minScale: 0.5, // Escala mínima permitida
+                    maxScale: 4.0, // Escala máxima permitida
+                    child: Image.asset(
+                      item.imagePath,
+                      //height del retorno de elementos //
+                      height: 150,
+                      width: double.infinity,
+                      fit: BoxFit.contain,
+                    ),
                   ),
                   // Usar PhotoView en lugar de Image.asset
                   /* Container( 
@@ -1943,6 +1733,18 @@ class GaleryA extends StatelessWidget{
           padding: const EdgeInsets.only(bottom: 32.0),
           child: Text(
             'Monitoreo peces San Blas (ENIP-CONANP).',
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 1.0),
+          child: InteractiveViewer(
+            child: Image.asset('assets/fotos/monitoreo/m15.jpeg'),
+          ),
+        ),
+         Padding( 
+          padding: const EdgeInsets.only(bottom: 32.0),
+          child: Text(
+            'Monitoreo en La Brecha, Teacapan Sinaloa.',
           ),
         ),
         Padding(
@@ -2702,24 +2504,21 @@ class ImgMarismas extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return InteractiveViewer(
-      boundaryMargin: EdgeInsets.all(10),
-      minScale: 0.1,
-      maxScale: 1.0,
-      child: Image.asset(
+    
+     return Image.asset(
         'assets/marismas/marismas.jpeg',
         /* fit: BoxFit.cover,  */
         width: 200,
         height: 100,
-      ),
-    );
+      );
   }
 }
 class WelcomeDialog extends StatelessWidget{
   const WelcomeDialog({
     super.key,
   });
-  @override
+  
+   @override 
   Widget build(BuildContext context) {
    return AlertDialog(
       content: Padding(
@@ -2733,10 +2532,7 @@ class WelcomeDialog extends StatelessWidget{
               textAlign: TextAlign.center,
             ),
             SizedBox(height: 10),
-            /* Text( 
-              'Esta aplicación fue diseñada para Pescadores que viven en la zona denominada Sitio Ramsar #732 Marismas Nacionales, es una herramienta digital, que apoya la identificación taxonómica de las especies de escama que capturan en esta hermosa zona geográfica.\n',
-              style: TextStyle(fontSize: 15),
-            ),*/
+            
             
             RichText(
               textAlign: TextAlign.justify,
@@ -2761,16 +2557,19 @@ class WelcomeDialog extends StatelessWidget{
                       color: Colors.black,
                     ),
                   ),
-                  TextSpan(text: 'es una herramienta digital que apoya la identificación taxonómica de las especies de escama que capturan en esta hermosa zona geográfica.'),
+                  TextSpan(text: 'es una herramienta digital que apoya la identificación taxonómica de las diferentes especies de escama que se capturan en esta zona geográfica.'),
                 ],
               ),
             ),
     
-            SizedBox(height: 20),
-            Image.asset(
-              'assets/icons/appbaricon.jpeg', // Ruta de tu imagen
-              width: 80,
-              height: 80,
+            SizedBox(height: 15),
+            ClipOval(
+              child: Image.asset(
+                'assets/icons/appbaricon.jpeg',
+                width: 110,
+                height: 110, // Mismo valor que el ancho para hacerla circular
+                fit: BoxFit.cover, // Ajusta la imagen para que cubra completamente el área del círculo
+              ),
             ),
           ],
         ),
@@ -2779,8 +2578,6 @@ class WelcomeDialog extends StatelessWidget{
     );
   }
 }
-
-  
     /* ----------------------------------- */
     /* ----BY CRISTIAN JIMENEZ ROBLES----- */
     /* ----------------------------------- */
