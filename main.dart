@@ -9,10 +9,7 @@ void main() {
       SystemUiOverlay.bottom,
     ]);
   //SystemChrome.setPreferredOrientations([
-  //DeviceOrientation.portraitUp,
-  //Solo modo horizontal, 
-  //Esto por alguna razón no funciona, lo ideal es ir al archivo
-  //AndroidManifest.xml y poner android:screenOrientation="portrait"
+
   runApp(const BottomNavigationBarExampleApp());  
 }
 
