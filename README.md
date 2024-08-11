@@ -1,6 +1,6 @@
 # FishMarismas
 ### Hola, bienvenido a mi Github, la aplicación "FishMarismas" fue creada principalmente para el pescador, donde puede observar las diferentes características taxonómicas de las especies de escama que habitan en las Marismas Nacionales.
-#### Aquí podrás encontrar unas imágenes mostrando el funcionamiento de la aplicación con cada una de las pantallas.
+#### Aquí podrás encontrar imágenes mostrando el funcionamiento de la aplicación en cada una de las pantallas.
 
 ![WhatsApp Image 2024-08-09 at 10 13 44 PM](https://github.com/user-attachments/assets/f2807ac2-ac5a-4f09-b081-b6af340cfacb)
 ![WhatsApp Image 2024-08-09 at 10 13 45 PM](https://github.com/user-attachments/assets/a82f0168-bdc7-4e31-99c3-f1630756aa5e)
