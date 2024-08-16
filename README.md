@@ -16,4 +16,5 @@
 ![WhatsApp Image 2024-08-09 at 10 13 50 PM](https://github.com/user-attachments/assets/b3b14d83-71e0-49b1-904c-679e7ae15d41)
 ---
 ### Puedes descargar el APK en el siguiente link: https://drive.google.com/drive/folders/1ZC0YUpp0x9PnoqfNXKs8O2gjEkh8vBZx?usp=sharing
-
+---
+<img src="public/image2.jpeg" width="200">
