@@ -31,7 +31,6 @@
 ### Puedes descargar el APK en el siguiente link: https://drive.google.com/drive/folders/1ZC0YUpp0x9PnoqfNXKs8O2gjEkh8vBZx?usp=sharing
 ---
 
-(sources/mainscreen.mp4)
 
 
 
